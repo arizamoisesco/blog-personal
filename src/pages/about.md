@@ -1,36 +1,20 @@
 ---
 layout: ../layouts/AboutLayout.astro
-title: "About"
+title: "Sobre mi"
 ---
+¡Hola! Soy un ingeniero de sistemas con un fuerte enfoque en el desarrollo backend con Python (Django) y JavaScript (ExpressJS). También tengo habilidades comprobadas en la enseñanza de programación para nivel junior y en la creación de contenido relacionado con el backend e ingeniería de software.
 
-AstroPaper is a minimal, responsive and SEO-friendly Astro blog theme. I designed and crafted this based on [my personal blog](https://satnaing.dev/blog).
+Como desarrollador, me especializo en construir aplicaciones y servicios escalables, integrando diferentes tecnologías y sistemas para asegurar la eficiencia, seguridad y mantenibilidad. Como formador, me apasiona ayudar a los estudiantes a alcanzar sus objetivos en la programación, explicando conceptos de manera clara y aplicables en situaciones reales.
 
-This theme is aimed to be accessible out of the box. Light and dark mode are supported by
-default and additional color schemes can also be configured.
+Además, soy un entusiasta de las aplicaciones de las inteligencias artificiales. Me encanta explorar cómo la IA puede ser utilizada para resolver problemas del mundo real y mejorar la calidad de vida de las personas. También disfruto creando contenido, puedes visitar mi canal de YouTube en https://www.youtube.com/@arizamoisesco
 
-This theme is self-documented \_ which means articles/posts in this theme can also be considered as documentations. So, see the documentation for more info.
+Si deseas construir soluciones backend sólidas y escalables, o aprender programación de manera clara y aplicable, ¡no dudes en contactarme! Estoy listo para abordar nuevos desafíos y proyectos emocionantes.
 
-<div>
-  <img src="/assets/dev.svg" class="sm:w-1/2 mx-auto" alt="coding dev illustration">
-</div>
 
-## Tech Stack
+## Herramientas de trabajo
 
-This theme is written in vanilla JavaScript (+ TypeScript for type checking) and a little bit of ReactJS for some interactions. TailwindCSS is used for styling; and Markdown is used for blog contents.
+- Django 
+- FastAPI
+- ExpressJS
+- NestJS
 
-## Features
-
-Here are certain features of this site.
-
-- fully responsive and accessible
-- SEO-friendly
-- light & dark mode
-- fuzzy search
-- super fast performance
-- draft posts
-- pagination
-- sitemap & rss feed
-- highly customizable
-
-If you like this theme, you can star/contribute to the [repo](https://github.com/satnaing/astro-paper).  
-Or you can even give any feedback via my [email](mailto:contact@satnaing.dev).

@@ -2,17 +2,17 @@ import type { SocialObjects } from "./types";
 
 export const SITE = {
   website: "https://astro-paper.pages.dev/",
-  author: "Sat Naing",
-  desc: "A minimal, responsive and SEO-friendly Astro blog theme.",
-  title: "AstroPaper",
+  author: "Moises Ariza",
+  desc: "Blog del formador y desarrollador Moises Ariza",
+  title: "Moises Ariza",
   ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,
   postPerPage: 3,
 };
 
 export const LOGO_IMAGE = {
-  enable: false,
-  svg: true,
+  enable: true,
+  svg: false,
   width: 216,
   height: 46,
 };
@@ -20,26 +20,26 @@ export const LOGO_IMAGE = {
 export const SOCIALS: SocialObjects = [
   {
     name: "Github",
-    href: "https://github.com/satnaing/astro-paper",
-    linkTitle: ` ${SITE.title} on Github`,
+    href: "https://github.com/arizamoisesco",
+    linkTitle: ` ${SITE.title} en Github`,
     active: true,
   },
   {
     name: "Facebook",
     href: "https://github.com/satnaing/astro-paper",
     linkTitle: `${SITE.title} on Facebook`,
-    active: true,
+    active: false,
   },
   {
     name: "Instagram",
-    href: "https://github.com/satnaing/astro-paper",
-    linkTitle: `${SITE.title} on Instagram`,
+    href: "https://www.instagram.com/arizamoisesco/",
+    linkTitle: `${SITE.title} en Instagram`,
     active: true,
   },
   {
     name: "LinkedIn",
-    href: "https://github.com/satnaing/astro-paper",
-    linkTitle: `${SITE.title} on LinkedIn`,
+    href: "https://www.linkedin.com/in/arizamoisesco/",
+    linkTitle: `${SITE.title} en LinkedIn`,
     active: true,
   },
   {
@@ -50,9 +50,9 @@ export const SOCIALS: SocialObjects = [
   },
   {
     name: "Twitter",
-    href: "https://github.com/satnaing/astro-paper",
+    href: "https://twitter.com/arizamoisesCO",
     linkTitle: `${SITE.title} on Twitter`,
-    active: false,
+    active: true,
   },
   {
     name: "Twitch",
@@ -62,9 +62,9 @@ export const SOCIALS: SocialObjects = [
   },
   {
     name: "YouTube",
-    href: "https://github.com/satnaing/astro-paper",
+    href: "https://www.youtube.com/@arizamoisesco",
     linkTitle: `${SITE.title} on YouTube`,
-    active: false,
+    active: true,
   },
   {
     name: "WhatsApp",
@@ -86,9 +86,9 @@ export const SOCIALS: SocialObjects = [
   },
   {
     name: "TikTok",
-    href: "https://github.com/satnaing/astro-paper",
+    href: "https://www.tiktok.com/@arizamoisesco",
     linkTitle: `${SITE.title} on TikTok`,
-    active: false,
+    active: true,
   },
   {
     name: "CodePen",
