@@ -15,3 +15,21 @@ export const blogSchema = z
   .strict();
 
 export type BlogFrontmatter = z.infer<typeof blogSchema>;
+
+
+export const projectsSchema = z
+  .object({
+    ogImage: z.string().optional(),
+    title: z.string(),
+    description: z.string(),
+    technologies: z.string().optional(),
+    projectSlug: z.string().optional(),
+    draft: z.boolean().optional(),
+    tags: z.array(z.string()).default(["software"]),
+    repo: z.string().optional(),
+    deployment: z.string().optional(),
+
+  })
+  .strict();
+
+export type ProjectsFrontmatter = z.infer<typeof projectsSchema>;

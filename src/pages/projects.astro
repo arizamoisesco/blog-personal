@@ -1,13 +1,48 @@
 ---
+import { getCollection } from "astro:content";
+import Card from "@components/CardProject";
 import { SITE } from "@config";
 import Layout from "@layouts/Layout.astro";
 import Header from "@components/Header.astro";
 import Footer from "@components/Footer.astro";
+import slugify from "@utils/slugify";
+import Hr from "../components/Hr.astro";
+
+const projects = await getCollection("projects")
+
+export interface Props {
+  noMarginTop?: boolean;
+}
+
+const { noMarginTop = false } = Astro.props;
 --- 
 <Layout title={`Portafolio ${SITE.title}`}>
     <Header />
-    <main>
+    <main id="main-content">
         <h1>Aqui van todos mis proyectos</h1>
+        <ul>
+            {
+                projects.map(
+                    (({data}, index) =>
+                        index < 4 && (
+                            <Card 
+                            href={`/projects/`}
+                            frontmatter={data}
+                            secHeading={false}
+                            />
+                            <Hr noPadding />
+
+                        )
+                    )
+                )
+            }
+        </ul>
     </main>
     <Footer />
 </Layout>
+
+<style>
+    #main-content {
+    @apply mx-auto flex flex-col max-w-3xl flex-1 items-baseline pt-6;
+  }
+</style>
