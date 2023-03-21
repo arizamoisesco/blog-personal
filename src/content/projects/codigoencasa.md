@@ -12,5 +12,3 @@ tags:
 repo: ""
 deployment: "https://app.codigoencasa.com/courses"
 ---
-
-# Esto es una prueba

@@ -1,5 +1,6 @@
 ---
 import { getCollection } from "astro:content";
+import Breadcrumbs from "@components/Breadcrumbs.astro";
 import Card from "@components/CardProject";
 import { SITE } from "@config";
 import Layout from "@layouts/Layout.astro";
@@ -13,11 +14,10 @@ const projects = await getCollection("projects")
 export interface Props {
   noMarginTop?: boolean;
 }
-
-const { noMarginTop = false } = Astro.props;
 --- 
 <Layout title={`Portafolio ${SITE.title}`}>
     <Header />
+    <Breadcrumbs />
     <main id="main-content">
         <h1>Aqui van todos mis proyectos</h1>
         <ul>

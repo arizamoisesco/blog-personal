@@ -2,7 +2,7 @@
 layout: ../layouts/AboutLayout.astro
 title: "Sobre mi"
 ---
-¡Hola! Soy un ingeniero de sistemas con un fuerte enfoque en el desarrollo backend con Python (Django) y JavaScript (ExpressJS). También tengo habilidades comprobadas en la enseñanza de programación para nivel junior y en la creación de contenido relacionado con el backend e ingeniería de software.
+¡Hola! Soy un ingeniero de sistemas con un fuerte enfoque en el desarrollo backend con Python (Django) y JavaScript (ExpressJS). También tengo habilidades comprobadas en la enseñanza de programación para nivel junior y en la creación de contenido relacionado con el backend e ingeniería de software. Actualmente me desempeño como líder pedagógico.
 
 Como desarrollador, me especializo en construir aplicaciones y servicios escalables, integrando diferentes tecnologías y sistemas para asegurar la eficiencia, seguridad y mantenibilidad. Como formador, me apasiona ayudar a los estudiantes a alcanzar sus objetivos en la programación, explicando conceptos de manera clara y aplicables en situaciones reales.
 
