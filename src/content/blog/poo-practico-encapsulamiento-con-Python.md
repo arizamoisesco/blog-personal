@@ -3,7 +3,7 @@ title: POO para principiantes. Aprende el pilar del encapsulamiento con Python
 author: Moises Ariza
 pubDatetime: 2023-04-03T02:05:51Z
 featured: false
-draft: true
+draft: false
 tags:
   - POO
   - Programación
