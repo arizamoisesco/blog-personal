@@ -39,7 +39,7 @@ class carro:
 
 En este ejemplo, la clase *carro* tiene tres atributos: 
 
-- M*arca*
+- *Marca*
 - *Modelo*
 - *Precio*
 
@@ -51,55 +51,36 @@ Entonces, ¿cómo puedo emplearlos?, bueno para el caso que desees saber el prec
 
 1. Crearemos un automóvil **mustang** instanciando nuestra clase *Carro* 
 
-```python
-class Carro:
-    def __init__(self, marca, modelo, precio):
-        self.__marca = marca
-        self.__modelo = modelo
-        self.__precio = precio
-
-    def get_precio(self):
-        return self.__precio
-
-mustang = Carro("Ford", "Mustang", 50000)
-```
-
-1. Luego probaremos acceder al precio con nuestro método
-    
     ```python
     class Carro:
         def __init__(self, marca, modelo, precio):
             self.__marca = marca
             self.__modelo = modelo
             self.__precio = precio
-    
+
         def get_precio(self):
             return self.__precio
-    
+
     mustang = Carro("Ford", "Mustang", 50000)
-    print(coche.get_precio()
     ```
-    
 
-En consola debe salir el valor de *5000*
-
-1. En caso de que tengas dudas prueba acceder al atributo directamente
+2. Luego probaremos acceder al precio con nuestro método
     
     ```python
-    class Carro:
-        def __init__(self, marca, modelo, precio):
-            self.__marca = marca
-            self.__modelo = modelo
-            self.__precio = precio
-    
         def get_precio(self):
             return self.__precio
     
     mustang = Carro("Ford", "Mustang", 50000)
     print(coche.get_precio())
+    ```
+
+En consola debe salir el valor de *5000*
+
+3. En caso de que tengas dudas prueba acceder al atributo directamente
+    
+    ```python
     print(coche.__precio) 
     ```
-    
 
 Te debe generar el siguiente error  ***AttributeError: 'Carro' object has no attribute '__precio,*** El cual básicamente nos dice que no existe ese atributo, eso debido a que es PRIVADO 😎.
 
@@ -111,109 +92,3 @@ En nuestro próximo artículo aprenderemos sobre la **herencia con Python.**
 
 Crea tu propia clase del tema que prefieras, con sus respectivos atributos privados e incluso en otro lenguaje de programación y déjalo en comentarios.
 
-1. Herencia
-
-La herencia es un mecanismo que permite crear una clase nueva basada en una clase existente, conservando todas las características de la clase original y agregando nuevas funcionalidades. La clase nueva se llama clase derivada o subclase, mientras que la clase original se llama clase base o superclase. En Python, se utiliza la palabra clave **`class`** seguida del nombre de la subclase y el nombre de la superclase entre paréntesis.
-
-```python
-class Vehiculo:
-    def __init__(self, marca, modelo):
-        self.marca = marca
-        self.modelo = modelo
-
-class Coche(Vehiculo):
-    def __init__(self, marca, modelo, precio):
-        super().__init__(marca, modelo)
-        self.precio = precio
-
-coche = Coche("Ford", "Mustang", 50000)
-print(coche.marca) # Ford
-print(coche.modelo) # Mustang
-print(coche.precio) # 50000
-```
-
-En este ejemplo, la clase **`Coche`**
- se define como una subclase de la clase **`Vehiculo`**
-. La subclase **`Coche`**
- hereda los atributos **`marca`**
- y **`modelo`**
- de la superclase **`Vehiculo`**
- mediante el uso de la función **`super()`**
-. Además, se ha añadido un atributo adicional **`precio`**
- que es específico de la clase **`Coche`**
-.
-
-## **Polimorfismo**
-
-El polimorfismo es la capacidad de objetos de diferentes clases para responder al mismo mensaje. En otras palabras, dos objetos de diferentes clases pueden tener métodos con el mismo nombre, y ambos métodos pueden ser llamados con el mismo código. El polimorfismo es una forma de lograr una mayor flexibilidad en nuestro código.
-
-Veamos un ejemplo:
-
-```python
-class Animal:
-    def __init__(self, name):
-        self.name = name
-
-    def make_sound(self):
-        pass
-
-class Dog(Animal):
-    def make_sound(self):
-        return "woof"
-
-class Cat(Animal):
-    def make_sound(self):
-        return "meow"
-
-class Cow(Animal):
-    def make_sound(self):
-        return "moo"
-
-animals = [Dog("Fido"), Cat("Fluffy"), Cow("Betsy")]
-
-for animal in animals:
-    print(animal.name + " says " + animal.make_sound())
-```
-
-En este ejemplo, creamos una clase base **`Animal`** y tres subclases **`Dog`**, **`Cat`** y **`Cow`**. Cada una de estas subclases tiene su propio método **`make_sound()`**. Sin embargo, cuando iteramos sobre una lista de objetos de estas clases, podemos llamar al método **`make_sound()`** en cada uno de ellos sin tener que preocuparnos por la clase específica.
-
-Este es el poder del polimorfismo. Permite que diferentes objetos se comporten de manera similar, lo que hace que nuestro código sea más flexible y fácil de mantener.
-
-## **Abstracción**
-
-La abstracción es el proceso de enfocarse en los aspectos importantes de un objeto y omitir los detalles irrelevantes. En la programación orientada a objetos, la abstracción se utiliza para crear clases y objetos que se centran en los detalles importantes y ocultan los detalles irrelevantes.
-
-Veamos un ejemplo:
-
-```python
-class Car:
-    def __init__(self, make, model, year):
-        self.make = make
-        self.model = model
-        self.year = year
-
-    def start(self):
-        print("Starting the car")
-
-    def stop(self):
-        print("Stopping the car")
-
-my_car = Car("Toyota", "Corolla", 2022)
-
-print(my_car.make)
-print(my_car.model)
-print(my_car.year)
-
-my_car.start()
-my_car.stop()
-```
-
-En este ejemplo, creamos una clase **`Car`** que tiene tres atributos **`make`**, **`model`** y **`year`**. También tiene dos métodos **`start()`** y **`stop()`** que imprimen mensajes de texto.
-
-Podemos crear objetos de la clase **`Car`** y acceder a sus atributos y métodos sin necesidad de saber cómo funcionan internamente. Esto es abstracción. Nos permite utilizar objetos complejos sin tener que preocuparnos por los detalles de su implementación.
-
-## **Conclusión**
-
-En este artículo, hemos discutido los cuatro pilares de la programación orientada a objetos: encapsulamiento, herencia, polimorfismo y abstracción. Estos conceptos son fundamentales para entender cómo funciona la programación orientada a objetos y cómo podemos utilizarla para crear programas más flexibles y fáciles de mantener.
-
-Hemos utilizado ejemplos en Python para ilustrar cada uno de estos conceptos y esperamos que esto haya ayudado a entenderlos mejor. En general, la programación orientada a objetos es una herramienta muy poderosa que puede ayudarn
