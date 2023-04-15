@@ -8,7 +8,7 @@ tags:
   - POO
   - Programación
   - Python
-ogImage: ""
+ogImage: "https://i.postimg.cc/9QhxsvJY/Dev-to-5.png"
 description: "Aprende el pilar de la herencia con Python"
 ---
 
@@ -55,8 +55,8 @@ Definimos la clase **`Vehiculo`** la cual será la superclase o clase padre, est
 
 La clase siguiente que se genera se llama **`Carro`** y esta será la subclase o clase hija con la cual vamos a hacer el ejercicio de la herencia.
 
-> La instrucción pass se usa para poder hacer que un bloque de código que no posee nada en su interior no nos genere error mientras agregamos lo que queremos.
-> 
+ℹ️ *Para tener en cuenta: La instrucción pass se usa para poder hacer que un bloque de código que no posee nada en su interior no nos genere error mientras agregamos lo que queremos.*
+
 
 ## ¡Pongámoslo a prueba! 🔥
 
