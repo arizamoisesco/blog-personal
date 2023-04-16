@@ -1,7 +1,7 @@
 ---
 title: POO para principiantes. Aprende el pilar del polimorfismo con Python
 author: Moises Ariza
-pubDatetime: 2023-04-15T02:05:51Z
+pubDatetime: 2023-05-01T02:05:51Z
 featured: false
 draft: True
 tags:
