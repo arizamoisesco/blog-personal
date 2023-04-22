@@ -3,16 +3,16 @@ title: POO para principiantes. Aprende el pilar del polimorfismo con Python
 author: Moises Ariza
 pubDatetime: 2023-05-01T02:05:51Z
 featured: false
-draft: True
+draft: false
 tags:
   - POO
   - Programación
   - Python
-ogImage: "https://i.postimg.cc/9QhxsvJY/Dev-to-5.png"
+ogImage: "https://i.postimg.cc/mrRDNcYT/polimorfismo.png"
 description: "Aprende el pilar del polimorfismo con Python"
 ---
 
-Ya para este punto conocemos de la Programación Orientada a Objetos dos pilares, **el encapsulamiento** y la **herencia**. El día de hoy nos concentraremos en el llamado **polimorfismo**.
+Ya para este punto conocemos de la Programación Orientada a Objetos dos pilares, [**el encapsulamiento**]() y la [**herencia**](). El día de hoy nos concentraremos en el llamado **polimorfismo**.
 
 ## La teoría de que necesitas
 
@@ -66,14 +66,14 @@ En el anterior ejemplo, pasa lo siguiente:
     
     ```python
     
-    animals = [Dog("Pistacho"), Cat("Manet"), Cow("Betsy")]
+    animals = [Dog("Gala"), Cat("Manet"), Cow("Betsy")]
     ```
     
 2. Como lo guardamos en una lista vamos a realizar un ciclo que nos permita recorrer y llamar al método **`make_sound()`** de cada una de las subclases
     
     ```python
     
-    animals = [Dog("Pistacho"), Cat("Manet"), Cow("Betsy")]
+    animals = [Dog("Gala"), Cat("Manet"), Cow("Betsy")]
     
     for animal in animals:
         print(animal.name + " dice " + animal.make_sound())
@@ -82,7 +82,7 @@ En el anterior ejemplo, pasa lo siguiente:
 3. Si todo salió bien debemos obtener el siguiente resultado
     
     ```python
-    Pistacho dice woof
+    Gala dice woof
     Manet dice meow
     Betsy dice moo
     ```
@@ -95,4 +95,3 @@ En nuestro próximo artículo aprenderemos el último de los pilares que nos fal
 
 No podemos olvidar que la programación se aprende programando, poniendo manos a la obra. Por lo cual en el reto de hoy te invito a que a la superclase **`Animal`** le agregues nuevos métodos y que estos tengan su propia versión para cada uno de los animales propuestos anteriormente.
 
-No olvides compartir el resultado en comentarios. 

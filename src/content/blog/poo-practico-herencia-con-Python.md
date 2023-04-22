@@ -1,5 +1,5 @@
 ---
-title: POO para principiantes. Aprende el pilar del encapsulamiento con Python
+title: POO para principiantes. Aprende el pilar de la herencia con Python
 author: Moises Ariza
 pubDatetime: 2023-04-15T02:05:51Z
 featured: false
