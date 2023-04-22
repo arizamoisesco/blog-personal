@@ -12,7 +12,7 @@ ogImage: "https://i.postimg.cc/mrRDNcYT/polimorfismo.png"
 description: "Aprende el pilar del polimorfismo con Python"
 ---
 
-Ya para este punto conocemos de la Programación Orientada a Objetos dos pilares, [**el encapsulamiento**]() y la [**herencia**](). El día de hoy nos concentraremos en el llamado **polimorfismo**.
+Ya para este punto conocemos de la Programación Orientada a Objetos dos pilares, [**el encapsulamiento**](https://arizamoises.co/posts/poo-para-principiantes-aprende-el-pilar-del-polimorfismo-con-python/) y la [**herencia**](https://arizamoises.co/posts/poo-para-principiantes-aprende-el-pilar-de-la-herencia-con-python/). El día de hoy nos concentraremos en el llamado **polimorfismo**.
 
 ## La teoría de que necesitas
 
