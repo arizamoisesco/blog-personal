@@ -21,7 +21,7 @@ Ten en cuenta lo siguiente en cuanto al polimorfismo:
 - El polimorfismo es la capacidad de objetos de diferentes clases para responder al mismo mensaje. En otras palabras, **dos objetos de diferentes** clases pueden tener **métodos con el mismo nombre**, y ambos métodos pueden ser llamados con el mismo código, dando **respuestas diferentes**.
 - El polimorfismo es una forma de lograr una mayor flexibilidad en nuestro código.
 
-Si deseas profundizar más al respecto, te recomiendo que vayas a mi publicación anterior donde vimos los conceptos más importantes para poderlo entender mejor. 
+Si deseas profundizar más al respecto, te recomiendo que vayas a mi [publicación anterior](https://arizamoises.co/posts/introducci%C3%B3n-r%C3%A1pida-a-lo-que-es-la-programaci%C3%B3n-orientada-a-objetos-y-sus-caracter%C3%ADsticas/) donde vimos los conceptos más importantes para poderlo entender mejor. 
 
 ## Herramientas que necesitas
 
@@ -89,7 +89,7 @@ En el anterior ejemplo, pasa lo siguiente:
 
 Eso es todo, ¡este es el poder del polimorfismo!. Permite que diferentes objetos se comporten de manera similar, básicamente que adquieran “diferentes formas”, lo que hace que nuestro código sea más flexible y fácil de mantener.
 
-En nuestro próximo artículo aprenderemos el último de los pilares que nos falta conocer que es la **asbtracción con Python.**
+En nuestro próximo artículo aprenderemos el último de los pilares que nos falta conocer que es la **abstracción con Python.**
 
 ## 🤓 Reto
 
