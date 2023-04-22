@@ -8,7 +8,7 @@ tags:
   - POO
   - Programación
   - Python
-ogImage: ""
+ogImage: "https://i.postimg.cc/pTvj0D7T/encapsulamiento.png"
 description: "Aprende el pilar del encapsulamiento con Python"
 ---
 
