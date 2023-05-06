@@ -71,7 +71,7 @@ Entonces, ¿cómo puedo emplearlos?, bueno para el caso que desees saber el prec
             return self.__precio
     
     mustang = Carro("Ford", "Mustang", 50000)
-    print(coche.get_precio())
+    print(mustang.get_precio())
     ```
 
 En consola debe salir el valor de *5000*
@@ -79,7 +79,7 @@ En consola debe salir el valor de *5000*
 3. En caso de que tengas dudas prueba acceder al atributo directamente
     
     ```python
-    print(coche.__precio) 
+    print(mustang.__precio) 
     ```
 
 Te debe generar el siguiente error  ***AttributeError: 'Carro' object has no attribute '__precio,*** El cual básicamente nos dice que no existe ese atributo, eso debido a que es PRIVADO 😎.
