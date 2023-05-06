@@ -8,7 +8,7 @@ tags:
   - POO
   - Programación
   - Python
-ogImage: "https://i.postimg.cc/pTvj0D7T/encapsulamiento.png"
+ogImage: "https://i.postimg.cc/rpdY3XhV/abstracci-n.png"
 description: "Aprende el pilar de la abstracción con Python"
 ---
 ## **Abstracción**
