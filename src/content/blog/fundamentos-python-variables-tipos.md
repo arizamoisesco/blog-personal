@@ -156,10 +156,8 @@ Analicemos el ejemplo anterior:
 - La primera variable ***`esta_cocinado`*** está representando el hecho de que un alimento este cocinando, y al tomar el valor de True se concluye que sí.
 - La segunda variable ***`tiene_azucar`*** nos indica si una bebida tiene azúcar, tomando el valor de False, se puede concluir con esto que la bebida no lleva azúcar.
 
-<aside>
 ⚠️ Importante: No olvides que en python los valores bool True y false son case-sensative, por lo cual la primera letra debe ir en mayúscula.
 
-</aside>
 
 Ahora que ya comprendes lo que son las variables y sus tipos (al menos los más básicos) estás listo para ponerlo en práctica. 
 
