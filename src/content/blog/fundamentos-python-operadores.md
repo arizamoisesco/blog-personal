@@ -18,7 +18,6 @@ Hola a todos en la publicación anterior vimos cuáles son los ingredientes bás
 
 - Si es tu primera vez aprendiendo programación te recomiendo pasar primero por el articulo de [variables y tipos de datos](https://arizamoises.co/posts/python-para-principiantes-variables-y-tipos-de-datos/)
 - Iniciaremos con una introducción teórica y así luego pasaremos a la práctica
-- El lenguaje escogido para explicar los conceptos de codificación será python 🐍
 - Realiza los retos propuestos porque práctica es lo que va a ayudarte a reforzar el conocimiento aprendido
 
 ## ¿Qué son los operadores?
