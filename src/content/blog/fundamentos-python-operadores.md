@@ -184,6 +184,6 @@ Llegamos al final de nuestro post del día de hoy, pero como siempre prepárate 
 En el editor de código que prefieras vas a realizar los siguientes ejercicios:
 
 1. Vas a crear un script que le solicite al usuario un número del 1 al 10 y en pantalla debe mostrar la tabla de multiplicar que corresponde a ese número teniendo en cuenta que va desde el 1 hasta el 10.
-2. Vamos con la clasica calculadora, vas a realizar un nuevo script que le solicite al usuario dos números y estos serán utiizados para realizar las operaciones de suma, resta, multiplicación, división y potenciación.
+2. Vamos con la clásica calculadora, vas a realizar un nuevo script que le solicite al usuario dos números y estos serán utilizados para realizar las operaciones de suma, resta, multiplicación, división y potenciación.
 
 Si tienes alguna duda no dudes en escribirme en [@arizamoisesco](https://twitter.com/arizamoisesCO) en Twitter.
