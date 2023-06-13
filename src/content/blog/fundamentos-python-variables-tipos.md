@@ -51,7 +51,7 @@ Los identificadores de cada variable deben respetar lo siguiente para que el com
 
 ## Convenciones o guía para nombres en python
 
-Las anteriores reglas si se **no usan** no deberían generarnos ningún tipo de error, pero existen ciertas convenciones que pueden ayudar a la legibilidad de nuestras variables en especial en python ayudan a que este sea mucho más *“pythonico”,* entre las más comunes podemos encontrar:
+Las anteriores reglas, **si se usan** en nuestro código para definir una variable, no deberían generarnos algún tipo de error, pero existen ciertas convenciones que pueden ayudar a la legibilidad de nuestras variables, las cuales no son obligatorias, pero en python ayudarán a que sean mucho más legible y organizado, entre las más comunes podemos encontrar:
 
 - usar nombres descriptivos en minúscula  y separados por guiones bajos, es decir, usar *[snake_case](https://es.wikipedia.org/wiki/Snake_case)*
 - Antes y después del signo igual ( = ) debe haber solo un espacio en blanco
@@ -153,7 +153,7 @@ print(tiene_azucar)
 
 Analicemos el ejemplo anterior:
 
-- La primera variable ***`esta_cocinado`*** está representando el hecho de que un alimento este cocinando, y al tomar el valor de True se concluye que sí.
+- La primera variable ***`esta_cocinado`*** está representando el hecho de que un alimento esté cocinando, y al tomar el valor de True se concluye que sí.
 - La segunda variable ***`tiene_azucar`*** nos indica si una bebida tiene azúcar, tomando el valor de False, se puede concluir con esto que la bebida no lleva azúcar.
 
 ⚠️ Importante: No olvides que en python los valores bool True y false son case-sensative, por lo cual la primera letra debe ir en mayúscula.
