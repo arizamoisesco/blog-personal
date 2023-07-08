@@ -1,5 +1,5 @@
 ---
-title: Python para principiantes. Métodos para tipos de datos String en Python.
+title: Python para principiantes. Métodos para tipos de datos String.
 author: Moises Ariza
 pubDatetime: 2023-07-08T06:00:51Z
 featured: false
