@@ -25,7 +25,7 @@ Ya para este punto conocemos muy bien los tipos de variables básicas con las qu
 - El lenguaje escogido para explicar los conceptos de codificación será python 🐍
 - Realiza los retos propuestos porque práctica es lo que va a ayudarte a reforzar el conocimiento aprendido
 
-> ***💡 Recomendación:** Visualiza los métodos de ahora en adelante como formas que tiene el lenguaje para facilitarnos ciertas tareas comunes que realizamos a la hora de programar.*
+> ***💡 Recomendación:** Visualiza los métodos de ahora en adelante como ayudas que tiene el lenguaje para facilitarnos ciertas tareas comunes que realizamos a la hora de programar.*
 > 
 
 ## Métodos comunes para tipo de datos str
@@ -139,7 +139,7 @@ print(comida_rapida)
 
 ### Leer datos desde el teclado
 
-Para esto se implementa el método `input()` que permite que puedas interacutar con el usuario y solicitar la información que tú desees y aprovecharlo como necesites.
+Para esto se implementa el método `input()` que permite que puedas interactuar con el usuario y solicitar la información que tú desees y aprovecharlo como necesites.
 
 ```python
 nombre_pedido = input("Introduzca el pedido que desea en nuestro restaurante: ")
