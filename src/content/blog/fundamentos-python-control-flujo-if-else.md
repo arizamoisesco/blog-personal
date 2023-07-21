@@ -1,5 +1,5 @@
 ---
-title: Python para principiantes. Métodos para tipos de datos String.
+title: Python para principiantes. Estructuras de control de flujo - Condicionales if - else.
 author: Moises Ariza
 pubDatetime: 2023-07-20T06:00:51Z
 featured: false
@@ -12,7 +12,7 @@ tags:
   - Programación
   - Python
 ogImage: "https://i.postimg.cc/bJXz3F9L/Pythoncontrol-flujo-if-else.png"
-description: "Controla el flujo de tus aplicaciones para que tus script tomen mejores decisiones haciendo uso del condicional if - else"
+description: "Controla el flujo de tus aplicaciones para que tus script tomen mejores decisiones haciendo uso del condicional if - else."
 ---
 👋Hola a todos, bienvenidos a este nuevo artículo 👀.
 
