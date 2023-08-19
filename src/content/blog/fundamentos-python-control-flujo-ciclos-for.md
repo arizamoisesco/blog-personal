@@ -158,7 +158,7 @@ Hay ocasiones en las que queremos repetir una acción un número determinado de 
 
 ```python
 for _ in range(10):
-	print("¡Alerta! Sobreclaentamiento de pastel")
+	print("¡Alerta! Sobrecalentamiento de pastel")
 ```
 
 Al omitir la creación de una variable que no vamos a usar, evitamos consumir ese espacio en memoria, por lo cual empezamos a tener nuestro **código más eficiente**.
