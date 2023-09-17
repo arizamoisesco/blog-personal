@@ -1,5 +1,5 @@
 ---
-title: Python para principiantes. Estructuras de de datos - Listas.
+title: Python para principiantes. Estructuras de datos - Listas.
 author: Moises Ariza
 pubDatetime: 2023-09-17T07:00:51Z
 featured: false
