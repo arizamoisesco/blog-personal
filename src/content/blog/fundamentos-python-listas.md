@@ -11,7 +11,7 @@ tags:
   - listas
   - Programación
   - Python
-ogImage: ""
+ogImage: "https://i.postimg.cc/tC7DQ5GZ/Pythonlistas.png"
 description: "Descubre el sorprendente mundo de las listas en Python, una herramienta poderosa para organizar y manipular datos de manera flexible.🚀"
 ---
 Hola a todos, espero inicien una excelente semana 😋, continuando con nuestro curso de Python vamos a conocer las estructuras de datos  y el potencial que estas tienen. 
