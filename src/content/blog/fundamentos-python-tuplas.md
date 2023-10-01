@@ -130,9 +130,8 @@ En resumen, las tuplas en Python son como platos bien preparados en un banquete 
     - Cada punto se describe mediante sus coordenadas `(x, y)`
     - El script debe poder calcular la distancia euclidiana entre dos puntos dados `(x1, x2)` y `(x2, y2)` para hacer la operación haz uso de la siguiente fórmula:
         
-        $$
-        distancia = sqrt((x2 - x1)^2 + (y2 - y1)^2)
-        $$
+        `distancia = sqrt((x2 - x1)^2 + (y2 - y1)^2)`
+        
 
 
 **Si tienes alguna duda no dudes en escribirme en [@arizamoisesco](https://twitter.com/arizamoisesCO) en X (Twitter).**
