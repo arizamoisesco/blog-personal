@@ -204,7 +204,7 @@ Llegó el momento de tomar un rol más activo, pasemos a la sección de ejercici
 1. Crea un programa que determine si un número es primo o no. Deberás crear la función con el nombre de **`esPrimo()`** que reciba como parámetro un número y devuelva *True* o *False*.
 2. Crea un programa que genere un número aleatorio del 1 al 10.  El usuario tendrá que adivinarlo, y el programa tras cada intento le indicará al usuario si el número es más alto, bajo o si ha acertado. La lógica para dar la respuesta al usuario deberá estar incluida en una función a la que se llamará tras cada intento.
     
-    > **Pista:** Para generar los números aleatorios haz uso de la libreria **random**
+    > **Pista:** Para generar los números aleatorios haz uso de la librería **random**
     >
 
 
