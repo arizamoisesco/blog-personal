@@ -1,5 +1,5 @@
 ---
-title: Python para principiantes. Estructuras de datos - Diccionarios.
+title: Python para principiantes. Funciones.
 author: Moises Ariza
 pubDatetime: 2023-11-18T07:00:51Z
 featured: false
@@ -161,11 +161,11 @@ En ocasiones no sabemos cuantos parámetros podemos recibir en nuestra función,
     suma(1,1) # RESULTADO: 2
     ```
     
-    El uso de la palabra *args* viene de la contracción de *arguments* en inglés y es una convención que se usa de manera arbitraria, por lo que no es necesario poner la palabra *args* lo importante es que adelante de la palabra vaya un asterisco (*****)
+    El uso de la palabra *args* viene de la contracción de *arguments* en inglés y es una convención que se usa de manera arbitraria, por lo que no es necesario poner la palabra *args* lo importante es que adelante de la palabra vaya un asterisco (*)
     
 - `**kwargs`
     
-    Tiene la misma funcionalidad de *args,* pero en este caso l**os parámetros serán almacenados en un diccionario***.* También su la palabra *kwargs* es una convención, solo debes respetar que adelante de ella vayan dos asteriscos (******) y que a tu función le pases **parámetros con palabras claves.**
+    Tiene la misma funcionalidad de *args,* pero en este caso l**os parámetros serán almacenados en un diccionario***.* También su la palabra *kwargs* es una convención, solo debes respetar que adelante de ella vayan dos asteriscos (**) y que a tu función le pases **parámetros con palabras claves.**
     
     ```python
     def suma(**kwargs):
