@@ -9,7 +9,7 @@ tags:
   - excepciones
   - Programación
   - Python
-  - Curso de python principiantes
+  - Curso-python-principiantes
 ogImage: "https://i.postimg.cc/QMTFRyMN/Pythonexcepciones.png"
 description: "📢🚢 ¡Navega por las complejidades de las excepciones!
 
