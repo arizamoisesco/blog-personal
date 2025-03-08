@@ -8,8 +8,8 @@ tags:
   - ia
   - inteligencia-artificial
   - agentes-ia
-ogImage: "https://i.postimg.cc/VLFMC45t/Pythoncontrol-flujo-for.png"
-description: "Conoce lo que son los agentes de IA"
+ogImage: "https://i.postimg.cc/9MX5JNQh/Agentes-qu-son-los-Agentes.png"
+description: "Conoce lo fundamentos de los famosos agentes de IA 🤖"
 ---
 
 Este inicio del 2025 uno de lo términos más frecuente que se han escuchado con respecto a la temática de inteligencia artificial, es el de agente de IA, vamos a entender un poco más allá del término y profundizaremos sobre los componentes que lo rodean y cómo pueden ser aprovechados en distintos ámbitos.
