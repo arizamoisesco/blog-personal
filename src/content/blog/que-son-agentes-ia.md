@@ -8,7 +8,7 @@ tags:
   - ia
   - inteligencia-artificial
   - agentes-ia
-ogImage: "https://i.postimg.cc/9MX5JNQh/Agentes-qu-son-los-Agentes.png"
+ogImage: "https://i.postimg.cc/XYvs1Swx/Agentes-qu-son-los-Agentes-1.png"
 description: "Conoce lo fundamentos de los famosos agentes de IA 🤖"
 ---
 
