@@ -1,5 +1,5 @@
 ---
-title: ¿Qué son los agentes de IA?
+title: Agentes de IA explicados: ¿Qué son y para qué sirven?
 author: Moises Ariza
 pubDatetime: 2025-03-08T07:00:51Z
 featured: false
@@ -9,7 +9,7 @@ tags:
   - inteligencia-artificial
   - agentes-ia
 ogImage: "https://i.postimg.cc/XYvs1Swx/Agentes-qu-son-los-Agentes-1.png"
-description: "Conoce lo fundamentos de los famosos agentes de IA 🤖"
+description: "Descubre lo fundamentos detrás de los famosos y mágicos agentes de IA  🤖"
 ---
 
 Este inicio del 2025 uno de lo términos más frecuente que se han escuchado con respecto a la temática de inteligencia artificial, es el de agente de IA, vamos a entender un poco más allá del término y profundizaremos sobre los componentes que lo rodean y cómo pueden ser aprovechados en distintos ámbitos.
